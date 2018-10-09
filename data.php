@@ -15,6 +15,7 @@
 	$sql = "SELECT * FROM data WHERE uname='$nama'";
 	$query = mysqli_query($con,$sql);
 	if ($query) {
-		
+		echo "$nama";
+		echo "$kelas";
 	}
 ?>
